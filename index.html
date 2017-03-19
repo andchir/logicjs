@@ -7,12 +7,104 @@
     <meta name="author" content="">
 
     <title>LogicJS</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="logic_lib.js"></script>
+
+    <style>
+        body { padding: 20px; background-color: #eee; }
+    </style>
+
+    <script>
+        var logicLibrary = new LogicLibrary();
+    </script>
 
 </head>
 <body>
 
+<div class="container">
 
+    <div class="card">
+        <div class="card-block">
+
+            <h1>LogicJS</h1>
+
+            <p>
+                GIT: <a href="https://github.com/andchir/logicjs">https://github.com/andchir/logicjs</a>
+            </p>
+
+            <hr>
+            <p>
+                JavaScript library for adding logic and dynamics to your app. Without the dependencies.
+            </p>
+            <hr>
+
+            <p>
+                <b>Supported browsers:</b> Chrome 45+, FireFox 35+, IE 10+, Safari 6+.
+            </p>
+
+            <p>
+                <b>Polyfills:</b>
+            </p>
+
+            HTML 5 dataset Support in IE < 11:<br>
+            <a href="https://github.com/adamancini/html5-dataset/blob/master/html5-dataset.js">https://github.com/adamancini/html5-dataset/blob/master/html5-dataset.js</a>
+
+            <hr>
+
+            <!-- Collapse -->
+            <h3 class="mb-4">Collapse</h3>
+
+            <div class="mb-4">
+
+                <div class="mb-4">
+
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-collapse-target="#collapseExample">
+                        Expand / Collapse
+                    </button>
+
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-collapse-target="#collapseExample" data-collapse-action="collapse">
+                        Collapse
+                    </button>
+
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-collapse-target="#collapseExample" data-collapse-action="expand">
+                        Expand
+                    </button>
+
+                    &nbsp;
+
+                    <a href="#" data-toggle="collapse" data-collapse-target="#collapseExample">
+                        Expand / Collapse
+                    </a>
+
+                    &nbsp;
+
+                    <label>
+                        <input type="checkbox" name="collapse" value="1" data-toggle="collapse" data-collapse-target="#collapseExample" checked>
+                        Expand / Collapse
+                    </label>
+
+                </div>
+
+                <div id="collapseExample">
+                    <div class="card card-block card-inverse card-warning">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat diam, tincidunt finibus massa vitae, sagittis dignissim quam. Donec sodales ultrices interdum. Morbi interdum sit amet turpis eu commodo. Ut eget velit eu felis imperdiet tincidunt et eget lacus. Nulla cursus bibendum arcu, sit amet consequat ante varius vitae.
+                    </div>
+                </div>
+
+            </div>
+            <!-- /Collapse -->
+
+            <hr>
+            <p>
+                In development...
+            </p>
+
+
+        </div>
+    </div>
+
+</div>
 
 </body>
 </html>
