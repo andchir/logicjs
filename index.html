@@ -71,23 +71,47 @@
                         Expand
                     </button>
 
-                    &nbsp;
+                    &nbsp;&nbsp;
 
-                    <a href="#" data-toggle="collapse" data-collapse-target="#collapseExample">
-                        Expand / Collapse
+                    <a href="#" data-toggle="collapse" data-collapse-target="#collapseExample2">
+                        Expand / Collapse #2
                     </a>
 
-                    &nbsp;
+                    &nbsp;&nbsp;
 
                     <label>
-                        <input type="checkbox" name="collapse" value="1" data-toggle="collapse" data-collapse-target="#collapseExample" checked>
+                        <input type="checkbox" name="collapse_chk" value="1" data-toggle="collapse" data-collapse-target="#collapseExample" checked>
                         Expand / Collapse
                     </label>
 
+                    &nbsp;&nbsp;
+
+                    <label>
+                        <input type="radio" name="collapse_radio" value="1" data-toggle="collapse" data-collapse-target="#collapseExample" data-collapse-action="expand" checked>
+                        Expand
+                    </label>
+                    <label>
+                        <input type="radio" name="collapse_radio" value="2" data-toggle="collapse" data-collapse-target="#collapseExample" data-collapse-action="collapse">
+                        Collapse
+                    </label>
+
+                    &nbsp;&nbsp;
+
+                    <select name="collapse_select" data-toggle="collapse" data-collapse-target="#collapseExample">
+                        <option value="1">Collapse</option>
+                        <option value="2">Expand</option>
+                    </select>
+
                 </div>
 
-                <div id="collapseExample">
+                <div class="mb-3" id="collapseExample">
                     <div class="card card-block card-inverse card-warning">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat diam, tincidunt finibus massa vitae, sagittis dignissim quam. Donec sodales ultrices interdum. Morbi interdum sit amet turpis eu commodo. Ut eget velit eu felis imperdiet tincidunt et eget lacus. Nulla cursus bibendum arcu, sit amet consequat ante varius vitae.
+                    </div>
+                </div>
+
+                <div class="mb-3" id="collapseExample2" style="display: none;">
+                    <div class="card card-block card-inverse card-success">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat diam, tincidunt finibus massa vitae, sagittis dignissim quam. Donec sodales ultrices interdum. Morbi interdum sit amet turpis eu commodo. Ut eget velit eu felis imperdiet tincidunt et eget lacus. Nulla cursus bibendum arcu, sit amet consequat ante varius vitae.
                     </div>
                 </div>
